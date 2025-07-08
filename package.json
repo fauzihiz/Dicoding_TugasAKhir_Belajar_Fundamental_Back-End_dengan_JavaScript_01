@@ -4,7 +4,9 @@
   "description": "Terdapat 5 kriteria utama yang harus Anda penuhi dalam membuat proyek OpenMusic API.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "migrate": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,8 @@
     "joi": "^17.13.3",
     "nanoid": "^5.1.5",
     "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^8.0.3"
   }
 }
