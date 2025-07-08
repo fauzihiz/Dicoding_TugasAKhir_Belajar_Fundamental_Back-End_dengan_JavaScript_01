@@ -1,7 +1,6 @@
 {
   "name": "dicoding_tugasakhir_belajar_fundamental_back-end_dengan_javascript_01",
   "version": "1.0.0",
-  "type": "module",
   "description": "Terdapat 5 kriteria utama yang harus Anda penuhi dalam membuat proyek OpenMusic API.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +22,7 @@
     "@hapi/hapi": "^21.4.0",
     "dotenv": "^17.0.1",
     "joi": "^17.13.3",
-    "nanoid": "^5.1.5",
+    "nanoid": "^3.3.11",
     "pg": "^8.16.3"
   },
   "devDependencies": {
