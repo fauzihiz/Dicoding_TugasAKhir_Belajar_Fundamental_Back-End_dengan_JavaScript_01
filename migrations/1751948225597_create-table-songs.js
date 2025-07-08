@@ -32,13 +32,13 @@ export const up = (pgm) => {
     },
     duration: {
       type: 'INTEGER',
-      allowNull: true,
+      notNull: false,
     },
     album_id: {
       type: 'VARCHAR(50)',
       references: 'albums(id)',
       onDelete: 'CASCADE',
-      allowNull: true,
+      notNull: false,
     },
   });
 };
